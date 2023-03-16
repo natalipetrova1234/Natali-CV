@@ -9,7 +9,7 @@
 
 body {
     font-family: "Gill Sans","Abril Fatface", cursive, "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-    color: #202030;
+    color: #000000;
     background-color: #05204A;
 }
 
@@ -18,19 +18,21 @@ body {
 .resume-header {
     background-color: #7C9ED9;
 }
-
+.titles {
+	color:#05204A;
+}
 .resume-main {
-	background-color: #fffefc;
+	background-color:#eae0cc;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color:#cc7e85;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "★";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -38,7 +40,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #cf4d6f;
 }
 
 .biography-details li, .skill-list li {
